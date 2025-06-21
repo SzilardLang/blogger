@@ -1,3 +1,8 @@
+/*
+To use this method, insert the following line in your Blogger template:
+<script expr:src='"https://cdn.jsdelivr.net/gh/felhasznalonev/repo/authorization.js?blogId=" + data:blog.blogId'/>
+*/
+
 document.addEventListener('DOMContentLoaded', function() {
 (function SolAuth(){
   function getQueryParam(name) {
